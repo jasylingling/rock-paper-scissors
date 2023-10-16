@@ -63,7 +63,7 @@ Computer: ${computerWins} | You: ${playerWins}`;
     } else if (computerWins > playerWins) {
         return `You lose you loser! 😂
 Computer: ${computerWins} | You: ${playerWins}`;
-    } else if (computerWins > playerWins) {
+    } else if (computerWins < playerWins) {
         return `You win - SUGEEEE! ⭐️.⭐️
 Computer: ${computerWins} | You: ${playerWins}`;
     }
