@@ -1,0 +1,61 @@
+/* === Font === */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* === Small CSS Reset === */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+/* === Main Styles === */
+body {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #EFEFEF;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 2rem;
+}
+
+.score-container, .buttons-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score-container {
+    margin: 2rem 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.25rem;
+}
+
+.buttons-container {
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 60vh;
+}
+
+.buttons-container>button {
+    margin: 3rem;
+}
+
+.buttons-container>button:hover{
+    transform: translateY(-1rem);
+}
+
+.message {
+    font-size: 1.5rem;
+}
